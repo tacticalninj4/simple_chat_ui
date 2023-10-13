@@ -96,7 +96,7 @@ class ChatScreen extends StatelessWidget {
       children: [
         SimpleChatUI.message(
           message: 'Hello, how are you?',
-          width: 200.0,
+          width:  MediaQuery.sizeOf(context).width * (2 / 3),
           time: DateTime.now(),
           senderID: 'user123',
           isMe: true,
@@ -105,7 +105,7 @@ class ChatScreen extends StatelessWidget {
         ),
         SimpleChatUI.message(
           image: Image.network('https://example.com/image.jpg'),
-          width: 200.0,
+          width:  MediaQuery.sizeOf(context).width * (2 / 3),
           time: DateTime.now(),
           senderID: 'user123',
           isMe: false,
@@ -116,7 +116,7 @@ class ChatScreen extends StatelessWidget {
           avatar: CircleAvatar(
             backgroundImage: AssetImage('assets/avatar.jpg'),
           ),
-          width: 200.0,
+          width:  MediaQuery.sizeOf(context).width * (2 / 3),
           body: Text('This is a custom message.'),
           time: DateTime.now(),
           senderID: 'user123',
