@@ -12,7 +12,9 @@ To use the `simple_chat_ui` library in your Flutter project, you need to add it 
 
 ```yaml
 dependencies:
-  simple_chat_ui: ^1.0.0
+  simple_chat_ui:
+    git:
+      url: https://github.com/tacticalninj4/simple_chat_ui.git
 ```
 
 Then, run `flutter pub get` to fetch and install the package.
