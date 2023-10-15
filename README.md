@@ -6,6 +6,8 @@ The `simple_chat_ui` library is a Flutter package that provides a collection of 
 
 The library is intended to simplify the process of creating chat interfaces by providing pre-designed components for messages and chat bubbles. You can use these components to build chat interfaces quickly and efficiently.
 
+![Screenshot](assets\image.png "Screenshot")
+
 ## Installation
 
 To use the `simple_chat_ui` library in your Flutter project, you need to add it to your `pubspec.yaml` file. Open the `pubspec.yaml` file and add the following line under the `dependencies` section:
